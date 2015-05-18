@@ -1,0 +1,43 @@
+/*don't affect how things are arranged on your page, just how they look: font colors, font faces, font weights, italics, text decorations, background colors, box shadows, border radii
+cream: #EDDFC1
+blue: #1C4678
+grey: #3B3A35
+pink: #FF644F
+purple: #5F3447*/
+
+html{
+  height:100%;
+}
+
+body {
+  background-color:#EDDFC1;
+  color:#1C4678;
+  min-height:100%;
+  font-size:16px;
+  /*font-family: 'Slabo 27px', serif; */
+}
+
+h1{
+  font-size:2em;
+}
+
+h2 {
+  font-size:1.5em;
+}
+
+html{
+  height:100%;
+}
+
+header{
+  font-size:3em;
+}
+
+img {
+  border-radius:5px;
+  box-shadow:2px 2px 2px grey;
+}
+
+p {
+  margin: 2% 2%;
+}
