@@ -2,7 +2,7 @@
 cream: #EDDFC1
 blue: #1C4678
 grey: #3B3A35
-pink: #FF644F
+orange: #FF644F
 purple: #5F3447*/
 
 html{
@@ -10,27 +10,12 @@ html{
 }
 
 body {
+  min-height:100%;
   background-color:#EDDFC1;
   color:#1C4678;
   min-height:100%;
   font-size:16px;
-  /*font-family: 'Slabo 27px', serif; */
-}
-
-h1{
-  font-size:2em;
-}
-
-h2 {
-  font-size:1.5em;
-}
-
-html{
-  height:100%;
-}
-
-header{
-  font-size:3em;
+  font-family: 'Slabo 27px', serif;
 }
 
 img {
@@ -38,6 +23,26 @@ img {
   box-shadow:2px 2px 2px grey;
 }
 
-p {
-  margin: 2% 2%;
+header a {
+  color:#5F3447;
 }
+
+header a:hover {
+  color:#FF644F;
+}
+
+.box {
+  border:solid 2px #3B3A35;
+  background:#1C4678;
+}
+
+.box:hover{
+  background:lightblue;
+}
+
+#social a{
+  color:#FF644F;
+}
+
+#social a:hover {
+background:lightblue;}
