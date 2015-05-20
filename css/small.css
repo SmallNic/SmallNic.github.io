@@ -1,18 +1,15 @@
 /*Add a new stylesheet called small.css to your index.html.
 In this stylesheet, define the styles that affect how things are arranged on your page, should it be viewed on a screen fewer than 500px wide.*/
 
-header {
-  width:100%;
-  margin:0 auto;
-  text-align:center;
-}
-
 body{
   font-size:16px;
 }
 
-header{
-  text-align:center;
+header {
+  width:100%;
+  margin:0 auto;
+  padding-left:40%;
+  text-align:left;
 }
 
 header h1{
@@ -32,6 +29,12 @@ h2 {
   margin: 1% 2%;
 }
 
+#image {
+  margin-top:30%;
+  text-align:center;
+}
+
+
 p {
   text-indent:2em;
   margin: 2% 10%;
@@ -39,8 +42,7 @@ p {
   line-height:2em;
 }
 
-
-#social{
+#social, #projects{
   width:75%;
   border-top:1px solid #3B3A35;
   text-align:center;
@@ -54,7 +56,7 @@ p {
   padding:10%;
 }
 
-#social a {
+#social a, #projects a {
   display:inline-block;
   margin:2% 3%;
 

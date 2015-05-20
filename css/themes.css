@@ -7,6 +7,7 @@ purple: #5F3447*/
 
 html{
   height:100%;
+
 }
 
 body {
@@ -16,11 +17,19 @@ body {
   min-height:100%;
   font-size:16px;
   font-family: 'Slabo 27px', serif;
+  background: url("../images/6-Colorful-Grungy-Texture02.jpg");
+
 }
 
 img {
   border-radius:5px;
-  box-shadow:2px 2px 2px grey;
+  /*box-shadow:2px 2px 2px grey;*/
+}
+
+header {
+  border-bottom: 4px solid black;
+  /*background: url("../images/11.png");*/
+
 }
 
 header a {
@@ -31,18 +40,28 @@ header a:hover {
   color:#FF644F;
 }
 
+
+
+.mainBox{
+  background: url("../images/6-Colorful-Grungy-Texture02.jpg");
+  color:black;
+  font-size:1em;
+  text-align: justify;
+}
+
 .box {
-  border:solid 2px #3B3A35;
-  background:#1C4678;
+  /*border:solid 2px #3B3A35;*/
+  /*background:#1C4678;*/
+  border-radius:5px;
+  background:#FF644F;
+  color:black;
+
 }
 
-.box:hover{
-  background:lightblue;
-}
 
-#social a{
+#social a, #projects a{
   color:#FF644F;
 }
 
-#social a:hover {
-background:lightblue;}
+#social a:hover, #projects a:hover {
+  background:lightblue;}
