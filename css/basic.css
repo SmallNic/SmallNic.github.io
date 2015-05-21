@@ -1,0 +1,65 @@
+/*Add a new stylesheet called large.css to your index.html.
+In this stylesheet, define the desktop-width styles that do affect how things are arranged on your page.*/
+
+header {
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+}
+
+body{
+  font-size:16px;
+}
+
+header{
+
+  text-align:center;
+}
+
+header h1{
+  font-size:6em;
+  margin:0;
+}
+
+header p {
+  font-size:1.25em;
+  margin-top:0;
+  margin-bottom:20px;
+  font-style: italic;
+}
+
+h2 {
+  font-size:1.5em;
+  margin: 1% 2%;
+}
+
+
+p {
+  text-indent:2em;
+  margin: 2% 2%;
+  font-size:1.25em;
+}
+
+
+
+
+
+#social{
+  width:75%;
+  border-top:1px solid #3B3A35;
+  text-align:center;
+  margin:0 auto;
+}
+
+.box {
+  width:150px;
+  text-align:center;
+  font-size:1.25em;
+  padding:10%;
+}
+
+#social a {
+  display:inline-block;
+  margin:2% 3%;
+
+}
