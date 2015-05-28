@@ -3,13 +3,21 @@
 <head>
   <title>Nic Small</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/themes.css"> -->
-  <!-- <link rel="stylesheet" href="css/large.css" media="screen and (min-width:501px)">
-  <link rel="stylesheet" href="css/small.css" media="screen and (max-width:500px)"> -->
-  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/themes.css" >
+  <link rel="stylesheet" href="css/orangeFlair.css" media="screen and (min-width:501px)" id="theme">
+  <!-- <link rel="stylesheet" href="css/small.css" media="screen and (max-width:500px)" class="orangeFlair"> -->
   <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+  <!-- <figure class="circle">Change Style</figure>
+
+  <section class="stage">
+    <figure class="ball"><span class="shadow"></span></figure>
+  </section>
+   -->
+  <!-- <div id="changeStyle">Change Style</div> -->
+  <div id="changeStyle">Change Style</div>
 
   <header>
     <h1>Nic Small</h1>
@@ -23,18 +31,23 @@
       <p>New York native Nic approaches programming with a sense of play and puzzle-solving. Having studied Computer Science and Fiction Writing, and worked in Accounting, he finds pleasure in attempting to balance the halves of his brain. </p>
     </div>
     <div class="mainBox">
-      <p>His hobbies include performing improv, exercising, couponing, and watching movies. He's recently taken a shining to fist-bumping.</p>
+      <p>His hobbies include performing improv, ebaying, exercising, couponing, and watching movies. He's recently taken a shining to fist-bumping.</p>
     </div>
   </main>
 
-  <div id="projects">
+  <div id="projects" class="row">
     <h2> My Portfolio:</h2>
-    <a href="https://shrouded-retreat-6319.herokuapp.com/" target="_blank"><div class = "box">BusTimes</div></a>
-    <a href="https://salty-journey-2304.herokuapp.com/" target="_blank"><div class = "box">Invisible Illnesses</div></a>
+    <a href="https://cookie-dueler.herokuapp.com/"target="_blank"><div class = "box">Cookie Dueler</div></a>
+    <a href="http://www.policonnect.org/" target="_blank"><div class = "box">PoliConnect</div></a>
     <a href="https://befearless.herokuapp.com/" target="_blank"><div class = "box">Be Fearless</div></a>
+    <a href="https://mysterious-taiga-6875.herokuapp.com/" target="_blank"><div class = "box">Listy</div></a>
+    <a href="https://salty-journey-2304.herokuapp.com/" target="_blank"><div class = "box">Invisible Illnesses</div></a>
+    <a href="https://shrouded-retreat-6319.herokuapp.com/" target="_blank"><div class = "box">BusTimes</div></a>
+
+
   </div>
 
-  <div id="social">
+  <div id="social" class="row">
     <h2> Interact With Me: </h2>
     <a href="http://www.smallnic.com" target="_blank"><div class = "box">SmallNic.com</div></a>
     <a href="https://github.com/SmallNic" target="_blank"><div class = "box">Github</div></a>
@@ -42,5 +55,9 @@
     <a href="#"><div class = "box" target="_blank">LinkedIn</div></a>
     <a href="#"><div class = "box" target="_blank">Twitter</div></a>
   </div>
+
+  <script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src = "Javascript/app.js"></script>
+
 </body>
 </html>

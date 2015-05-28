@@ -3,6 +3,8 @@ In this stylesheet, define the desktop-width styles that do affect how things ar
 
 body{
   font-size:16px;
+  background: url("../images/6-Colorful-Grungy-Texture01.jpg");
+
 }
 
 header {
@@ -48,7 +50,7 @@ p {
 }
 
 img {
-  border:2px solid black;
+  /*border:2px solid black;*/
   box-shadow:1px 1px 20px black;
 
 }
@@ -59,20 +61,24 @@ main{
 
 .mainBox {
   width: 23%;
-  /*border:2px solid black;*/
+  /*background: url("../images/6-Colorful-Grungy-Texture02.jpg");*/
+  background:black;
+  color:white;
   border-radius:5px;
   display:inline-block;
-  text-align:left;
+  text-align:justify;
   margin:1%;
   box-shadow:1px 1px 20px black;
-  text-align: justify;
+  /*text-align: justify;*/
   padding:2% 2%;
+  letter-spacing: .5px
   }
 
 
 .mainBox > p {
   font-size:1.2em;
   word-spacing: 0.1px;
+  opacity:1;
 }
 
 #social, #projects{
@@ -82,6 +88,10 @@ main{
   margin:0 auto;
 }
 
+#projects {
+  /*background:#eee;
+  opacity:.5;*/
+}
 
 #projects h2, #social h2{
   float:left;
@@ -96,6 +106,7 @@ main{
 }
 
 .box {
+  color:black;
   width:150px;
   text-align:center;
   font-size:1.25em;
@@ -103,7 +114,6 @@ main{
   border-radius:5px;
   border: solid 4px #FF644F;
   box-shadow:1px 1px 20px black;
-
 }
 
 .box:hover{
