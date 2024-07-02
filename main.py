@@ -3,6 +3,7 @@ from django.conf import settings
 from django.template import Template, Context
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime
 
 # Set up Django to use standalone templating engine
 # @see https://stackoverflow.com/questions/43834226/django-error-no-djangotemplates-backend-is-configured
@@ -19,7 +20,7 @@ html_template = """
   </head>
   <link rel="stylesheet" href="style.css">
   <body>
-    <img alt="Today's image" src="{{img_src}}"/>
+    <img alt="today's image updated at {{current_time}}" src="{{img_src}}"/>
   </body>
 </html>
 """
@@ -34,7 +35,10 @@ driver.quit()
 
 # Populate Django template with scraped image
 template = Template(html_template)
-context = Context({"img_src": img_src})
+context = Context({
+    "img_src": img_src,
+    "current_time": datetime.now()
+  })
 populated_template = template.render(context)
 
 # Overwrite index.html file with populated template
