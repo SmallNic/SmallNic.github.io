@@ -34,10 +34,12 @@ img_src = image.get_attribute('src')
 driver.quit() 
 
 # Populate Django template with scraped image
+now = datetime.now()
+current_time = now.strftime("%m/%d/%Y, %H:%M:%S")
 template = Template(html_template)
 context = Context({
     "img_src": img_src,
-    "current_time": datetime.now()
+    "current_time": current_time
   })
 populated_template = template.render(context)
 
