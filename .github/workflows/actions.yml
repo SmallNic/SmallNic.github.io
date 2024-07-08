@@ -1,8 +1,12 @@
 name: Pexel Web Scraper
 
+# on:
+#     schedule:
+#         - cron: '0 0 31 2 *' # Never
 on:
-    schedule:
-        - cron: '0 0 31 2 *' # Never
+    push:
+        tags:
+        - '**-PROD'
 
 jobs:
   build:
